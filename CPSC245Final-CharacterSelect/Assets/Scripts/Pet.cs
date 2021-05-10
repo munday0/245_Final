@@ -14,16 +14,81 @@ using UnityEngine;
 
 public class Pet : MonoBehaviour
 {
-    public GameObject[] Pets = new GameObject[24]; //list of different character objects to be chosen from
-    // Start is called before the first frame update
-    void Start()
+    public GameObject[] Pets = new GameObject[9]; //list of different character objects to be chosen from
+
+    public int PetIndex = 0; //index of character object
+    private int currIndex;
+
+    // Toggles through pet skins
+    public void SwitchPet()
     {
-        
+        if (PetIndex > 4 && PetIndex < 8)
+        {
+            PetIndex++;
+        }
+        else if (PetIndex == 8)
+        {
+            PetIndex = (currIndex) % Pets.Length;
+        }
+        else
+        {
+            return;
+        }
+
+        ClearModels();
+        Pets[PetIndex].SetActive(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    // Clear visible characters 
+    public void ClearModels()
     {
-        
+        for (int i = 0; i < Pets.Length; ++i)
+        {
+            Pets[i].SetActive(false);
+        }
+    }
+
+    public void SetModel(int index)
+    {
+        ClearModels();
+        Pets[index].SetActive(true);
+        currIndex = index;
+    }
+
+    // Spawns set pet
+    public void PetOne()
+    {
+        PetIndex = 0;
+        SetModel(PetIndex);
+    }
+
+    public void PetTwo()
+    {
+        PetIndex = 1;
+        SetModel(PetIndex);
+    }
+
+    public void PetThree()
+    {
+        PetIndex = 2;
+        SetModel(PetIndex);
+    }
+
+    public void PetFour()
+    {
+        PetIndex = 3;
+        SetModel(PetIndex);
+    }
+
+    public void PetFive()
+    {
+        PetIndex = 4;
+        SetModel(PetIndex);
+    }
+
+    public void PetSix()
+    {
+        PetIndex = 5;
+        SetModel(PetIndex);
     }
 }
