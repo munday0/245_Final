@@ -1127,6 +1127,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 332218030}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &332218028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,6 +1590,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 421981010}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3024,6 +3046,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 716580802}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &716580800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3515,6 +3548,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 827388927}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &827388925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3737,6 +3781,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 892371652}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4265,6 +4320,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1080833142}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5460,6 +5526,7 @@ GameObject:
   - component: {fileID: 1419080398}
   - component: {fileID: 1419080397}
   - component: {fileID: 1419080396}
+  - component: {fileID: 1419080399}
   m_Layer: 5
   m_Name: CharacterPanel
   m_TagString: Untagged
@@ -5559,6 +5626,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419080394}
   m_CullTransparentMesh: 0
+--- !u!114 &1419080399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419080394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84d1b5416c2e4b5fa3615446bb7a327, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  C: {fileID: 1508882402}
+  O: {fileID: 1508882405}
 --- !u!1 &1421691284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5648,6 +5729,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1421691289}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5794,6 +5886,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1429024746}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6250,6 +6353,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1484458156}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!114 &1484458154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6634,17 +6748,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 1508882405}
-        m_MethodName: set_enabled
-        m_Mode: 6
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1508882405}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 1
 --- !u!114 &1508882403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7210,6 +7324,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1735017429}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8612,6 +8737,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1419080399}
+        m_MethodName: UpdateActive
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2098944838}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Outline, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
