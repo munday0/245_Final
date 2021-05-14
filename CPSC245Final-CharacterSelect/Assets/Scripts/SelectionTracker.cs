@@ -15,9 +15,9 @@ using UnityEngine.UI;
 
 public class SelectionTracker : MonoBehaviour
 {
-    public Button C; // active button
-    public Outline O;
-    private bool IsActive; //will we need this?
+    public List<Outline> Outlines; //= new Outline[];
+    private int previousIndex = -1;
+    //private bool IsActive; //will we need this?
 
     // activate (pass in), deactivate, updateActive(pass in clicked button) (assign to onClick + variable)
     // all buttons outline --> click (deactivate and update)
@@ -26,41 +26,36 @@ public class SelectionTracker : MonoBehaviour
 
     //Q: how do we pass the previous button??
 
-    void Activate(Outline B) //activates outline
+    void Activate(int index/*Outline B*/) //activates outline
     {
-        B.enabled = true;
-        IsActive = true;
-        
+        Outlines[index].enabled = true;
+        previousIndex = index;
     }
 
-    void Deactivate(Outline B) //deactivates outline
+    void Deactivate(int index) //deactivates outline
     {
-        B.enabled = false;
-        IsActive = false;
+        Outlines[previousIndex].enabled = false;
     }
 
-    public void UpdateActive(Outline B) //NOT WORKING PROPERLY -> multiple can still be selected
+    public void UpdateActive(int index) // OnClick
     {
-        if (IsActive)
+        if (Outlines[index].enabled == false)
         {
-            Deactivate(B);
+            if (previousIndex > -1)
+            {
+                Deactivate(previousIndex);
+            }
+            if (index != previousIndex)
+            {
+                
+                Activate(index);
+            }
         }
-        else
-        {
-            Activate(B);
-        }
-        
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        UpdateActive(O);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UpdateActive(0);
     }
 }
