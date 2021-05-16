@@ -19,6 +19,11 @@ public class Pet : MonoBehaviour
     public int PetIndex = 0; //index of character object
     private int currIndex;
 
+    private void Start()
+    {
+        SetModel(0);
+    }
+
     // Toggles through pet skins
     public void SwitchPet()
     {
