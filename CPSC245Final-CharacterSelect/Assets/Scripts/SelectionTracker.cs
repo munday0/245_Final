@@ -10,14 +10,13 @@ using UnityEngine.UI;
 * CPSC 245-01
 * Final - Character Select
 *
-* Pet script - accounts for switching between pets
+* SelectionTracker script - accounts for switching outlines in panels
 */
 
 public class SelectionTracker : MonoBehaviour
 {
-    public List<Outline> Outlines; //= new Outline[];
+    public List<Outline> Outlines;
     private int previousIndex = -1;
-    //private bool IsActive; //will we need this?
 
     public void Activate(int index) //activates outline
     {

@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/* 
+ * Stephanie Munday, Isa Lee
+ * ID: 2343625, 2343486
+ * smunday@chapman.edu, isalee@chapman.edu
+ * CPSC 245-01
+ * Final - Character Select
+ *
+ * NameUI script - accounts for displaying character and pet names
+ */
+
 public class NameUI : MonoBehaviour
 {
     public string CharacterName;

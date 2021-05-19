@@ -13,8 +13,6 @@ using UnityEngine.UI;
  * Character script - accounts for switching between characters
  */
 
-// make sure selected one is interactable
-
 public class Character : MonoBehaviour
 {
     public GameObject[] Characters = new GameObject[24]; //list of different character objects to be chosen from
@@ -194,10 +192,5 @@ public class Character : MonoBehaviour
         SetModel(CharaIndex);
         PetButtons[1].interactable = false;
         CheckValidCombo(1);
-    }
-
-    public void StartGame()
-    {
-        PlayerPrefs.SetInt("CharaIndex", CharaIndex);
     }
 }
