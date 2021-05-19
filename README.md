@@ -5,6 +5,10 @@
 * CPSC 245-01
 * Final - Character Select
 
+* Notes:
+  - When the game first loads in the Unity editor sometimes the UI and placement looks wrong. To fix this, change any value of the aspect ratio (you can change it back to the original one or pick a new one and then it should look correct)
+  - Sometimes the text input fields for the character and pet names are fiddly to click 
+
 * References used:
   - https://www.youtube.com/watch?v=iwxWrx98RfI
   - https://answers.unity.com/questions/971009/make-ui-elements-invisible.html
