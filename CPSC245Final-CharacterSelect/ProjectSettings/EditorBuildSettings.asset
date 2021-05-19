@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CharacterToggleWFormatting.unity
+    guid: 07c97415c2a3641199c9457d2ed59b3b
   m_configObjects: {}
