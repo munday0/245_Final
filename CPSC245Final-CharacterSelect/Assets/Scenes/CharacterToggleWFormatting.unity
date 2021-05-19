@@ -2164,6 +2164,14 @@ MonoBehaviour:
   - {fileID: 982468833}
   - {fileID: 1090087060}
   - {fileID: 2027616711}
+  PetButtons:
+  - {fileID: 1293557245}
+  - {fileID: 1898492699}
+  - {fileID: 613065986}
+  - {fileID: 99605379}
+  - {fileID: 1503482664}
+  - {fileID: 1161602409}
+  s: {fileID: 540503552}
   CharaIndex: 1
 --- !u!4 &563949791
 Transform:
@@ -3715,7 +3723,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 419e3a282b2e5499388948eda946ce5f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0

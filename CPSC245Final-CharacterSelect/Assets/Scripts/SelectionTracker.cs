@@ -19,20 +19,13 @@ public class SelectionTracker : MonoBehaviour
     private int previousIndex = -1;
     //private bool IsActive; //will we need this?
 
-    // activate (pass in), deactivate, updateActive(pass in clicked button) (assign to onClick + variable)
-    // all buttons outline --> click (deactivate and update)
-    // .setActive (go)--> .enabled (com)
-    // default select
-
-    //Q: how do we pass the previous button??
-
-    void Activate(int index/*Outline B*/) //activates outline
+    public void Activate(int index) //activates outline
     {
         Outlines[index].enabled = true;
         previousIndex = index;
     }
 
-    void Deactivate(int index) //deactivates outline
+    public void Deactivate(int index) //deactivates outline
     {
         Outlines[previousIndex].enabled = false;
     }
@@ -51,6 +44,17 @@ public class SelectionTracker : MonoBehaviour
                 Activate(index);
             }
         }
+    }
+
+    public int GetCurrentOutline()
+    {
+        for (int i = 0; i < 6; ++i)
+        {
+            if (Outlines[i].enabled == true)
+                return i;
+        }
+        Debug.Log("Something went wrong");
+        return 1;
     }
 
     // Start is called before the first frame update
