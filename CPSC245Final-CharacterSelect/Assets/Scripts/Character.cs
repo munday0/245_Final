@@ -49,7 +49,6 @@ public class Character : MonoBehaviour
     // Clear visible characters 
     public void ClearModels()
     {
-        ResetInteractable();
         for (int i = 0; i < Characters.Length; ++i)
         {
             Characters[i].SetActive(false);
@@ -84,6 +83,7 @@ public class Character : MonoBehaviour
     public void SetModel(int index)
     {
         ClearModels();
+        ResetInteractable();
         Characters[index].SetActive(true);
         currIndex = index;
     }
